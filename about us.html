@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>About US</title>
+        <meta name="" content="">
+        <link rel="stylesheet"  href="../css/style.css">
+        
+    </head>
+    <style>
+        body{ /* Styling for the body, including background image */
+            background-image: url(../image/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .head { /* Styling for the header section, including background color and padding */
+            background-color: rgb(23, 22, 22);
+            padding-top: 4%;
+            align-items: center;
+            width: 100%;
+            height: auto;
+            
+        }
+        .box{/* Styling for the box containing team members */
+            max-width: 90%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: transparent;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+
+            }
+
+        .row
+        {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 32px 16px;
+            text-align: center;
+            padding-top: 1%;
+        
+        }
+        .column{ /* Styling for columns in the layout */
+            width: 100%;
+            padding: 8px 0;
+            padding-left: 35%;
+        }
+        h1{/* Styling for heading 1 */
+            width: 100%;
+            text-align: center;
+            font-size: xxx-large;
+            color: white;
+            font-family: font1;
+        }
+        .card{  /* Styling for individual team member cards */
+            box-shadow: 0 0 0 3.2px whitesmoke;
+            padding: 56px 16px;
+            border-radius: 5px;
+            cursor: pointer;
+            color: rgb(43, 41, 41);
+            transition: 0.5s;
+            height: auto;
+            width: 50%;
+        }
+
+        .card .img-container{   /* Styling for the image container within the card */
+            width: 200px;
+            height: 200px;
+            background-color: azure;
+            padding: 8px;
+            border-radius: 50%;
+            margin: 0 auto 32px auto;
+        }
+
+        .card img{   /* Styling for social media icons */
+            width: 100%;
+            border-radius: 50%;
+            
+        }
+
+    .image img{
+    width: 20%;
+    height: 20%;
+    margin: 16px;
+    background-color: transparent;
+  }
+
+  .card h3{
+    font-weight: 500;
+    color: white;
+  }
+
+  .card p{
+  font-weight: 300;
+  margin: 8px 8px 0 ;
+  color: white;
+  
+  
+  }
+
+  .card:hover {
+    background-color: rgb(65, 81, 91);
+    color: whitesmoke; 
+  }
+
+
+
+  .form{
+       background-color: black;
+       width: 100%;
+        position: absolute;
+        
+        display: flex;
+        gap: 50px;
+
+       
+    }
+
+
+    .feedback{
+        padding-left: 30px;
+        width: 400px;
+        width: 40%;
+        background-color: rgb(89, 100, 100);
+        border-radius: 30px;
+        
+    }
+
+
+
+    .feedback textarea{
+        border-radius: 12px;
+    }
+    .feedback input{
+        border-radius: 5px;
+        height: 20px;
+        border: 1px solid;
+    }
+    #submit{
+        height: 30px;
+        width: 70px;
+    }
+
+    .motive{
+        padding-left: 30px;
+
+        width: 50%;
+        background-color:  rgb(89, 100, 100);
+        border-radius: 30px;
+    }
+
+    
+
+    </style>
+    <body>
+        <div class="container">
+
+                <header class="header">
+
+                    <div class="logo"> 
+                        <a href="../home.html"><img src="../css\diamonf.png" style="filter: brightness(0) invert(1);">
+                            
+                            
+                        </a>
+                        <a href="../home.html"><h2>Dominion</h2></a>
+                    </div>
+
+
+                    <nav class="nav">
+                            
+                                    <a href="../home.html"><b><i>Home</i></b></a></th>
+                                    <a href="product.html"><i><b>Product</b></i></a>
+                                    <a href="blog.html"><i><b>Blog</b></i></a>
+                                <a href="research.html"><i><b>Research</b></i></a>
+                                <a href="#"><i><b>About us</b></i>
+                    
+                    </nav>
+                    <div class="icon">
+                        <a href="#"><img src="../css\search.png" style="filter: brightness(0) invert(1);">
+                            </a>
+                        <a href="#">
+                        <img src="../css\shopping.png" style="filter: brightness(0) invert(1);">
+                        </a>
+                        <a href="#">
+                            <img src="../css\login.png" style="filter: brightness(0) invert(1);">
+                        </a>
+                    </div>
+                </header>
+        </div>
+        <section class=" head">
+            <div class="row">
+                <h1>Our Team</h1>
+            </div>
+            <div class="row">
+                
+                <div class="column">
+                    
+                        <div class="card">
+                            <div class="img-container">
+                        <img src="../image/chetan.jpg" >
+                            </div>
+                            <h3>Chetan Jung Neupane</h3>
+                            <p>NP01NT4A230019</p>
+                            <p>Neupanechetanjung93@gmail.com</p>
+                            <p>Deginer,Developer</p>
+                            <p>Basic knowledge of HTML,CSS,JS,JAVA and Degining and Database.</p>
+                            <p>Currently Studing bachlore 1st year.</p>
+                            <p>Cyber Security Student</p>
+                            <P>Working at Dominion.</P>
+                            <P>Worked at freelancer as website deginer.</P>
+                            <div class="image">
+                            <a href="https://www.facebook.com/"> <img src="../image/facebook.png" style="filter: brightness(0) invert(1);"> </a>
+                            <a href="https://www.instagram.com/"> <img src="../image/instagram.png " style="filter: brightness(0) invert(1);"> </a>
+                            <a href="https://x.com/?lang=en"> <img src="../image/twitter.png" style="filter: brightness(0) invert(1);"> </a>
+        
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                      <img src="../image/faizu.jpg" width="100%" height="100%">
+                        </div>
+                        <h3>MD. FAIZUR RAHMAN RAIN</h3>
+                        <p>NP01NT4A230001</p>
+                        <p>faizureramanrain73@gmail.com</p>
+                        <p>Marketing Head</p>
+                        <p>Basic knowledge of Wordpress and Marketting.</p>
+                        <p>Currently Studing bachlore 1st year.</p>
+                        <p>Cyber Security Student</p>
+                        <P>Working at Dominion.</P>
+                        <P>Worked at Trilok school as Marketing Director.</P>
+                        
+                        <div class="image">
+                           <a href="https://www.facebook.com/"> <img src="../image/facebook.png" style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://www.instagram.com/"> <img src="../image/instagram.png " style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://x.com/?lang=en"> <img src="../image/twitter.png" style="filter: brightness(0) invert(1);"> </a>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                      <img src="../image/immamudin.jpg" width="100%" height="100%" >
+                        </div>
+                        <h3>Imamuddin Dhobi</h3>
+                        <p>NP01NT4A230004</p>
+                        <p>Imamuddindhobi54@gmail.com</p>
+                        <p>Product Supplier</p>
+                        <p>Basic knowledge of HTML,CSS,JS,JAVA and Sales.</p>
+                        <p>Currently Studing bachlore 1st year.</p>
+                        <p>Cyber Security Student</p>
+                        <P>Working at Dominion.</P>
+                        <P>Worked at Samyam Electronics.</P>
+                        <div class="image">
+                           <a href="https://www.facebook.com/"> <img src="../image/facebook.png" style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://www.instagram.com/"> <img src="../image/instagram.png " style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://x.com/?lang=en"> <img src="../image/twitter.png" style="filter: brightness(0) invert(1);"> </a>
+    
+                        </div>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="card">
+                        <div class="img-container">
+                      <img src="../image/krish.png" width="100%" height="100%" >
+                        </div>
+                        <h3>Krish Khadka</h3>
+                        <p>NP01NT4A220213</p>
+                        <p>krishkhadka78@gamil.com</p>
+                        <p>Manager</p>
+                        <p>Basic knowledge of Web degining and Management.</p>
+                        <p>Currently Studing bachlore 1st year.</p>
+                        <p>Cyber Security Student</p>
+                        <P>Working at Dominion.</P>
+                        <P>Worked at Vector Electronics.</P>
+                        <div class="image">
+                           <a href="https://www.facebook.com/"> <img src="../image/facebook.png" style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://www.instagram.com/"> <img src="../image/instagram.png " style="filter: brightness(0) invert(1);"> </a>
+                           <a href="https://x.com/?lang=en"> <img src="../image/twitter.png" style="filter: brightness(0) invert(1);"> </a>
+    
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+         
+        <div class="form">
+
+            <div class="feedback">
+                <form name="messageForm" onsubmit="validateForm()">
+                    <label>First Name: </label>
+                    <input type="text" name="fname">
+                    <br>
+                    <br>
+        
+                    <label>Last Name: </label>
+                    <input type="text" name="lname">
+                    <br>
+                    <br>
+        
+                    <label>Gender: </label>
+                    <input type="radio" name="genderDetails" value="male" checked>Male
+                    <input type="radio" name="genderDetails" value="female">Female
+                    <br>
+                    <br>
+        
+                    <label>Message:</label>
+                    <br>
+                    <textarea rows="10" cols="25" name="message" placeholder="Enter your message"></textarea>
+                    <br>
+                    <br>
+        
+                    <input type="submit" value="Submit Button">
+                
+            </form>
+        </div>
+
+            <!--write the motive of the project-->
+            <div class="motive">
+
+                <h3>Our company</h3>
+                <p>This company was established in order to provide easy and realiable way of shopping for customer. We provide best deal with best product and our team are available 24/7 for your service.</p>
+                     
+                     <br><br>
+                     <h3 class="title">Our team</h3>
+                     <p>Every team memeber is well reputed and expert in theri respective feild. Every team member have their own speciality and have worked equally to establish all this.</p>
+
+                        <br> <br>
+
+                        <h3>Our project</h3>
+                        <p>our project is basically creating  e-commerce website which is convenient to user or customer. Cutomer can but product at reasonable price and can get valuable information of tecnology.
+            </div>
+        </div>
+    
+
+
+        
+
+            </div>
+            <div class="lower">
+                <h2>&copy Dominion</h2>
+            </div>
+
+        </div>
+
+
+        <script type="text/javascript">
+			function validateForm()
+			{
+				var firstName = document.forms["messageForm"]["fname"].value;
+				var lastName = document.forms["messageForm"]["lname"].value;
+				var gender = document.forms["messageForm"]["genderDetails"].value;
+				var messageDetails = document.forms["messageForm"]["message"].value;
+
+				//alert(messageDetails);
+				if (firstName == "" || lastName == "" || messageDetails == "") 
+				{
+					alert("Empty fields are present!!! Please enter the values...");
+				}
+
+				else
+				{
+					 alert("Thank you for your feedback!!!")
+				}
+			}
+		</script>
+        
+
+
+    </body>
+</html>

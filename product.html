@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Product</title>
+        <meta name="" content="">
+        <link rel="stylesheet"  href="../css/style.css">
+        
+    </head>
+    <style>
+        body{/* Styling for the body, including background image */
+            background-image: url(../image/background.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+         .container2/* Styling for the container2 */
+        {
+            width: 100%;
+            height: auto;
+            background: black;
+            
+        }
+
+        .heading/* Styling for the heading section */
+        {
+            color: white;
+            background: black;
+            font-size: xx-large;
+            padding-top: 60px;
+            text-align: center;
+            font-family: font2;
+        }
+        .underline{  /* Styling for the underline effect */
+            background: white;
+            height: 5px;
+            width: 30%;
+            position: relative;
+            border-radius: 10px;
+            left: 35%;
+        }
+
+        .printer{
+    /* Styling for the printer section */
+        width: 100%;
+        height: auto;
+        background-color: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        }
+
+        .products{
+        width: 250px;
+        background: transparent;
+        height: 350px;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+        margin-top: 64px;
+        margin: 64px;
+        transition: 0.5s;
+        border-radius: 16px;
+        
+        }
+
+        .products button{/* Styling for buttons inside product cards */
+        width: 60%;
+        height: 30%;
+        margin-bottom: 16px;
+        font-family: font2;
+        color: pink;
+        font-size: medium;
+        }
+
+        .top/* Styling for the top section of product cards */
+        {
+        width: 100%;
+        height: 60%;
+        background: transparent;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        }
+
+        .top img{   /* Styling for product images inside product cards */
+        width: 100%;
+        height: 100%;
+
+        }
+        
+
+        .bottom /* Styling for the bottom section of product cards */
+        {
+        width: 100%;
+        height: 45%;
+        background: transparent;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 16px;
+        }
+
+        .bottom h3{    /* Styling for various text elements in the product cards */
+        font-size: xx-large;
+        text-align: center;
+        color: white;
+
+        }
+        .bottom h4{
+        font-size: x-large;
+        color: pink;
+        
+        }
+        .products:hover{/* Hover effect for product cards */
+        cursor: pointer;
+        background: black;
+        width: 300px;
+        height: 450px;
+        border: 2px solid whitesmoke;
+        
+
+        }
+
+        .discount
+        {
+        text-decoration: line-through;
+        }
+    </style>
+    <body>
+        <div class="container">
+<!-- Header section -->
+        <header class="header">
+<!-- Logo section -->
+            <div class="logo"> 
+                <a href="../home.html"><img src="../css\diamonf.png" style="filter: brightness(0) invert(1);">
+                    
+                    
+                </a>
+                <a href="../home.html"><h2>Dominion</h2></a>
+            </div>
+
+
+            <nav class="nav"><!-- Logo section -->
+                    
+                            <a href="../home.html"><b><i>Home</i></b></a></th>
+                            <a href="#"><i><b>Product</b></i></a>
+                            <a href="blog.html"><i><b>Blog</b></i></a>
+                        <a href="research.html"><i><b>Research</b></i></a>
+                        <a href="about us.html"><i><b>About us</b></i>
+            
+            </nav>
+            <div class="icon">   <!-- Icon section -->
+                <a href="#"><img src="../css/search.png" style="filter: brightness(0) invert(1);">
+                    </a>
+                <a href="#">
+                  <img src="../css/shopping.png" style="filter: brightness(0) invert(1);">
+                </a>
+                <a href="#">
+                    <img src="../css/login.png" style="filter: brightness(0) invert(1);">
+                </a>
+            </div>
+        </header>
+        </div>
+        <div class="container2">
+            <P class="heading">Printer</P>
+            <div class="underline"></div>
+
+            <div class="printer"> <!-- Script for displaying date -->
+
+			
+                        <!-- Product items section -->
+                    <div class="products"> <!-- Top part of the product -->
+                        <div class="top">
+                            <img src="../image/printer1.png">
+                        </div>
+                        <div class="bottom"> <!-- Bottom part of the product -->
+                            <h3>Espon 16170 </h3>
+                            <p><img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\half star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h4>$375.00</h4>
+                            <p><del class="discount">$500</del> -25% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+                    </div>
+            
+                    <div class="products">
+                        <div class="top">
+                            <img src="../image/printer2.png">
+                        </div>
+                        <div class="bottom">
+                            <h3>Canon PIXMA </h3>
+                            <p><img src="../css/star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css/star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\half star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h3>$340.00</h3>
+                            <p><del class="discount">$400</del> -15% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+                    </div>
+                
+                  <div class="products">
+                        <div class="top">
+                            <img src="../image/printer3.png">
+                        </div>
+                        <div class="bottom">
+                            <h3>Afina-L801 Printer</h3>
+                            <p><img src="../css\star.png"style="filter:  brightness(0) invert(1);" >
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\half star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\empty star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h3>$325.00</h3>
+                            <p><del class="discount">$500</del> -35% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+                    </div>
+                
+                    <div class="products">
+                        <div class="top">
+                            <img src="../image/printer4.png">
+                        </div>
+                        <div class="bottom">
+                            <h3>Brother MFC</h3>
+                            <p><img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\empty star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h3>$30.00</h3>
+                            <p><del class="discount">$900</del> -40% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+                    </div>
+                
+                    <div class="products">
+                        <div class="top">
+                            <img  src="../image/printer5.png">
+                        </div>
+                        <div class="bottom">
+                            <h3>Epson Eco tank</h3>
+                            <p><img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\half star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h3>$576.00</h3>
+                            <p><del class="discount">$768</del> -25% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+                   </div>
+
+                  <div class="products">
+                        <div class="top">
+                            <img src="../image/printer6.png">
+                        </div>
+                        <div class="bottom">
+                            <h3>Canon Pixma TS</h3>
+                            <p><img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\star.png"style="filter:  brightness(0) invert(1);">
+                            <img src="../css\half star.png"style="filter:  brightness(0) invert(1);"></p>
+                            <h3>$570.00</h3>
+                            <p><del class="discount">$600</del> -5% off</p> <br>
+                            <button>Add to Cart<img src="../css\shopping.png" style="filter:  brightness(0) invert(1);"></button>
+                        
+                        </div>
+
+                </div>  
+
+            </div>
+        </div>
+        <div class="footer">
+            <!-- Footer section -->
+            <div class="upper">      <!-- Upper part of the footer with company information -->
+                <div class="u">
+                    <h1><img src="../css/diamonf.png" style="filter: brightness(0) invert(1);">Dominion</h1>
+                    <p>We provide the best quality product and best sales service. Get every product here at cheapest price.</p>
+                    <div class="images">
+                        <img src="../image/facebook.png">
+                        <img src="../image/instagram.png">
+                        <img src="../image/twitter.png">
+                        
+
+                    </div>
+                
+                </div>
+                <div class="u">
+                    <h1>Contact Info</h1>!-- Connect with us section -->
+                    <div class="footericon">
+                        <div class="matter"><img src="../css/call.png" style="filter: brightness(0) invert(1);">+977 9845678992</div>
+                        <div class="matter"><img src="../css/call.png" style="filter: brightness(0) invert(1);">+977 9865789546</div>
+                        <div class="matter"><img src="../css/mail.png" style="filter: brightness(0) invert(1);">dominion878@gmail.com</div>
+                        <div class="matter"><img src="../css/location.png" style="filter: brightness(0) invert(1);">Balaju,Kathmandu,Nepal</div>
+                    </div>
+                </div>
+                <div class="u"><-- Connect with us section -->
+                    <h1>Connect with us</h1>
+                    <p>Get all the latest updates on product and never miss anything.</p>
+                    <input class="input" type="email" placeholder="Enter email">
+                    <button>Suscribe</button>
+                </div>
+
+            </div>
+            <div class="lower">    <!-- Lower part of the footer with copyright information -->
+                <h2>&copy Dominion</h2>
+            </div>
+
+        </div>
+
+        
+    </body>
+    
+
+
+</html>
